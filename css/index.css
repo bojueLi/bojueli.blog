@@ -14,6 +14,8 @@
     top: 0;
 }  
 #footer {
+    width: 790px;
+    margin: 0 auto;
     clear:both;
     height: 77px;
     margin-top: 20px;
@@ -27,10 +29,6 @@
 }
 #footer p { 
     margin:0; padding-top:10px; 
-}
-.f-con{
-    width: 790px;
-    margin: 0 auto;
 }
 .f-left {float:left;}
 .f-right {float:right;}
