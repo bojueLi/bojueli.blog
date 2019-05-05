@@ -152,8 +152,6 @@ cite, em, q, var { font-style:italic; }
 code, kbd, samp  {font-family:monospace; font-size:110%; }
 hr { display:block; height:1px; margin:10px 0; padding:0; border:0 solid #CCC; background:#CCC; color:#CCC;} 
 .inner_copyright{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
-.f-left {float:left;}
-.f-right {float:right;}
 .a-left, tr.a-left td {text-align:left;}
 .a-center, tr.a-center td {text-align:center;}
 .a-right, tr.a-right td {text-align:right;}
