@@ -113,21 +113,7 @@ h5 { font-size:100%; }
     #panel-left p  { margin-top: 5px; }
   
   	/* footer ----------------------------------------------------------------- */
-  	#footer {
-      clear:both;
-      height: 77px;
-      margin-top: 20px;
-      border-top: 1px solid #324455;
-      padding:10px 3px;
-      color: #a0a9b0;
-      font-size: 90%;
-    }
-    
-    #footer a {
-      color: #a0a9b0;
-    }
-    
-      #footer p { margin:0; padding-top:10px; }
+
 
 
 
@@ -165,8 +151,8 @@ strong, .strong { font-weight:bold; }
 cite, em, q, var { font-style:italic; }
 code, kbd, samp  {font-family:monospace; font-size:110%; }
 hr { display:block; height:1px; margin:10px 0; padding:0; border:0 solid #CCC; background:#CCC; color:#CCC;} 
-.f-left {float:left;}
 .inner_copyright{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+.f-left {float:left;}
 .f-right {float:right;}
 .a-left, tr.a-left td {text-align:left;}
 .a-center, tr.a-center td {text-align:center;}
