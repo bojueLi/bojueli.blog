@@ -38,3 +38,5 @@ body{
     #nav ul li a:hover {
       background: #0a151f;
     }
+.box { min-height:1px; }
+.box:after { display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:"."; }

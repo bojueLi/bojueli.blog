@@ -133,8 +133,6 @@ hr { display:block; height:1px; margin:10px 0; padding:0; border:0 solid #CCC; b
 .va-middle {vertical-align:middle;}
 .va-bottom {vertical-align:bottom;}
 .clear { clear:both; }
-.box { min-height:1px; }
-.box:after { display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:"."; }
 .noscreen { display:none; }
 
 .foto{  display: block;}
