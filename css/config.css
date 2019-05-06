@@ -38,5 +38,26 @@ body{
     #nav ul li a:hover {
       background: #0a151f;
     }
+/* footer--------------------------------------------------------------------- */
+#footer {
+    width: 790px;
+    margin: 0 auto;
+    clear:both;
+    height: 77px;
+    margin-top: 20px;
+    border-top: 1px solid #324455;
+    padding:10px 3px;
+    color: #a0a9b0;
+    font-size: 90%;
+}
+#footer a {
+    color: #a0a9b0;
+}
+#footer p { 
+    margin:0; padding-top:10px; 
+}
+.f-left {float:left;}
+.f-right {float:right;}
+
 .box { min-height:1px; }
 .box:after { display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:"."; }
