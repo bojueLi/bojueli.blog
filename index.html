@@ -5,36 +5,29 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/config.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/config.js"></script>
   </head>
   <body>
   <div id="layout">
     <div id="header">
-      <h1 id="logo">
+      <!-- <h1 id="logo">
         伯爵李
-        <!-- <a href="#">mint<span class="light">idea</span><span class="leaf">&nbsp;</span></a> -->
-      </h1>
-      <hr class="noscreen" />
-      <p class="noscreen noprint"> <em>Skip to <a href="#obsah">content</a>, <a href="#nav">navigation</a>.</em> </p>
-      <hr class="noscreen" />
-      <div id="nav" class="box">
-        <ul>
-          <li><a href="#">Home<br />
-            <span>Main page</span></a></li>
-          <li><a href="#">Who<br />
-            <span>Our team</span></a></li>
-          <li><a href="#">What<br />
-            <span>Our services</span></a></li>
-          <li><a href="#">Portfolio<br />
-            <span>Our woks</span></a></li>
-          <li><a href="#">Prices<br />
-            <span>How much it costs</span></a></li>
-          <li><a href="#">Contact<br />
-            <span>Write us!</span></a></li>
-        </ul>
-        <hr class="noscreen" />
+      </h1> -->
+      <div class="nav">
+
       </div>
+      <!-- <div id="nav" class="box">
+        <ul>
+          <li><a href="index.html">首页<br />
+            <span>Home</span></a></li>
+          <li><a href="common/blog.html">博客<br />
+            <span>Blog</span></a></li>
+          <li><a href="#">生活<br />
+            <span>Live</span></a></li>
+        </ul>
+      </div> -->
       <div id="container" class="box">
         <div id="obsah" class="content box">
           <div class="in">
@@ -74,6 +67,7 @@
 </html>
 <script>
   $(function(){
+    $(".nav").load("page/nav.html");
     $(".footer").load("page/footer.html");
   })
 </script>
